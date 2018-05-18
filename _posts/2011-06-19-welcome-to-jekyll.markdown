@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date: 2016-06-19 21:06:26 +0800
 categories: jekyll
+description: Simple is a beautiful but functional jekyll theme. The font-type setting looks really good when writers use CJK mixed with English.
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
