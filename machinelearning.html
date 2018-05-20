@@ -1,14 +1,13 @@
 ---
 layout: default
-title: Android
+title: Machine learning
 ---
 
 <div>
+  <h2>Machine Learning </h2>
 
-  <h2>Android</h2>
-
-<section class="archive_list">	
-    {% assign catobjs = site.categories.Android %}	
+  <section class="archive_list">
+    {% assign catobjs = site.categories.MachineLearning %}	
 	{% assign subject_array = "" | split: "" %} 
 	
 	{% for catobj in catobjs %}
@@ -22,7 +21,7 @@ title: Android
     <div class="category-name">
       <h2>{{ subject}}</h2>
     </div>
-	{% for post in site.categories.Android %}
+	{% for post in site.categories.MachineLearning %}
 	{% if post.subject == subject %}
     <div class="post_title">
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title}}</a>
@@ -31,8 +30,7 @@ title: Android
 	{% endif %}    
     {% endfor %}    
     {% endfor %}
-	
-</section>
+  </section>
 
   <footer class="article-footer" mar>
     {% include author.html %}
